@@ -16,7 +16,7 @@ public class LandingPage extends Base{
 	@FindBy(xpath="//div[@id='Content']//following::sub")
 	WebElement copyright;
 	
-	@FindBy(css="//div[@id='Content']//following::h2")
+	@FindBy(xpath="//div[@id='Content']//following::h2")
 	WebElement header;
 	
 	public LandingPage(WebDriver driver){
@@ -40,7 +40,7 @@ public class LandingPage extends Base{
 	//Verifying the header
 	public void verifyHeader() {
 		String actual=prop.getProperty("LandingPageHeader");
-		String expected=prop.getProperty("LandingPageHeader");
+		String expected=header.getText();
 		Assert.assertEquals(actual, expected);
 	}
 	//Clicking the link
