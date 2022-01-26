@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-26T16:32:41 IST" name="Suite" finished-at="2022-01-26T16:33:02 IST" duration-ms="20903">
+    <groups>
+    </groups>
+    <test started-at="2022-01-26T16:32:41 IST" name="FireFoxTest" finished-at="2022-01-26T16:32:41 IST" duration-ms="26">
+    </test> <!-- FireFoxTest -->
+    <test started-at="2022-01-26T16:32:41 IST" name="chromeTest" finished-at="2022-01-26T16:33:02 IST" duration-ms="20903">
+      <class name="Test.landingPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Test.landingPageTest@20ce78ec]" started-at="2022-01-26T16:32:41 IST" name="setUp" finished-at="2022-01-26T16:32:45 IST" duration-ms="3516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLandingPage()[pri:0, instance:Test.landingPageTest@20ce78ec]" started-at="2022-01-26T16:32:45 IST" name="verifyLandingPage" description="Verifying the objects in the Landing Page" finished-at="2022-01-26T16:32:45 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLandingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.landingPageTest@20ce78ec]" started-at="2022-01-26T16:32:45 IST" name="tearDown" finished-at="2022-01-26T16:32:45 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.landingPageTest -->
+      <class name="Test.productTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Test.productTest@1ab3a8c8]" started-at="2022-01-26T16:32:55 IST" name="setUp" finished-at="2022-01-26T16:32:57 IST" duration-ms="1617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPurchaseAndOrderID()[pri:3, instance:Test.productTest@1ab3a8c8]" started-at="2022-01-26T16:32:57 IST" name="verifyPurchaseAndOrderID" description="Verify user is able to purchase product &amp; receive order ID successfully" finished-at="2022-01-26T16:33:02 IST" duration-ms="5102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPurchaseAndOrderID -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.productTest@1ab3a8c8]" started-at="2022-01-26T16:33:02 IST" name="tearDown" finished-at="2022-01-26T16:33:02 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.productTest -->
+      <class name="Test.homePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Test.homePageTest@1afd44cb]" started-at="2022-01-26T16:32:45 IST" name="setUp" finished-at="2022-01-26T16:32:46 IST" duration-ms="1601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePage()[pri:1, instance:Test.homePageTest@1afd44cb]" started-at="2022-01-26T16:32:46 IST" name="verifyHomePage" description="Verifying the successful entry to HomePage and objects in it" finished-at="2022-01-26T16:32:48 IST" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.homePageTest@1afd44cb]" started-at="2022-01-26T16:32:48 IST" name="tearDown" finished-at="2022-01-26T16:32:48 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.homePageTest -->
+      <class name="Test.signInTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Test.signInTest@6973b51b]" started-at="2022-01-26T16:32:48 IST" name="setUp" finished-at="2022-01-26T16:32:50 IST" duration-ms="1921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:2, instance:Test.signInTest@6973b51b]" started-at="2022-01-26T16:32:50 IST" name="verifyLogin" description="Verifying the successful login and objects in SignIn page" finished-at="2022-01-26T16:32:55 IST" duration-ms="4670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.signInTest@6973b51b]" started-at="2022-01-26T16:32:55 IST" name="tearDown" finished-at="2022-01-26T16:32:55 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.signInTest -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
